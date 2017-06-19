@@ -13,6 +13,11 @@
 		8EC811161EF4DB9700BCFF2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC811141EF4DB9700BCFF2B /* Main.storyboard */; };
 		8EC811221EF4DB9700BCFF2B /* SyntaxHighlighterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC811211EF4DB9700BCFF2B /* SyntaxHighlighterTests.swift */; };
 		8EC8112D1EF4DB9700BCFF2B /* SyntaxHighlighterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8112C1EF4DB9700BCFF2B /* SyntaxHighlighterUITests.swift */; };
+		8EC811781EF6FA6A00BCFF2B /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC811771EF6FA6A00BCFF2B /* Lexer.swift */; };
+		8EC8117A1EF6FAA600BCFF2B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC811791EF6FAA600BCFF2B /* Extensions.swift */; };
+		8EC8117C1EF6FAD800BCFF2B /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8117B1EF6FAD800BCFF2B /* Token.swift */; };
+		8EC8117E1EF7042300BCFF2B /* CLike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8117D1EF7042300BCFF2B /* CLike.swift */; };
+		8EC811801EF704B800BCFF2B /* ColourSchemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8117F1EF704B800BCFF2B /* ColourSchemes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		8EC811281EF4DB9700BCFF2B /* SyntaxHighlighterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyntaxHighlighterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC8112C1EF4DB9700BCFF2B /* SyntaxHighlighterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxHighlighterUITests.swift; sourceTree = "<group>"; };
 		8EC8112E1EF4DB9700BCFF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC811771EF6FA6A00BCFF2B /* Lexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		8EC811791EF6FAA600BCFF2B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8EC8117B1EF6FAD800BCFF2B /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		8EC8117D1EF7042300BCFF2B /* CLike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLike.swift; sourceTree = "<group>"; };
+		8EC8117F1EF704B800BCFF2B /* ColourSchemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourSchemes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,11 @@
 				8EC811141EF4DB9700BCFF2B /* Main.storyboard */,
 				8EC811171EF4DB9700BCFF2B /* Info.plist */,
 				8EC811181EF4DB9700BCFF2B /* SyntaxHighlighter.entitlements */,
+				8EC811771EF6FA6A00BCFF2B /* Lexer.swift */,
+				8EC811791EF6FAA600BCFF2B /* Extensions.swift */,
+				8EC8117B1EF6FAD800BCFF2B /* Token.swift */,
+				8EC8117D1EF7042300BCFF2B /* CLike.swift */,
+				8EC8117F1EF704B800BCFF2B /* ColourSchemes.swift */,
 			);
 			path = SyntaxHighlighter;
 			sourceTree = "<group>";
@@ -254,8 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC8117E1EF7042300BCFF2B /* CLike.swift in Sources */,
 				8EC811111EF4DB9700BCFF2B /* ViewController.swift in Sources */,
+				8EC8117C1EF6FAD800BCFF2B /* Token.swift in Sources */,
+				8EC811781EF6FA6A00BCFF2B /* Lexer.swift in Sources */,
 				8EC8110F1EF4DB9700BCFF2B /* AppDelegate.swift in Sources */,
+				8EC8117A1EF6FAA600BCFF2B /* Extensions.swift in Sources */,
+				8EC811801EF704B800BCFF2B /* ColourSchemes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +535,7 @@
 				8EC811331EF4DB9700BCFF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EC811341EF4DB9700BCFF2B /* Build configuration list for PBXNativeTarget "SyntaxHighlighterTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +544,7 @@
 				8EC811361EF4DB9700BCFF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EC811371EF4DB9700BCFF2B /* Build configuration list for PBXNativeTarget "SyntaxHighlighterUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +553,7 @@
 				8EC811391EF4DB9700BCFF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
